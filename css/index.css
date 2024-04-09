@@ -1,0 +1,33 @@
+h1 {
+    background-color: gold;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.recipe-card {
+    text-align: center;
+}
+.recipe-list {
+    display: inline-block;
+    text-align: left;
+    color: gold;
+    font-size: 24px;
+    font-family: fantasy;
+    text-decoration-color: rgb(218, 197, 78);
+}
+
+.middle {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.contents {
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
