@@ -2,6 +2,7 @@ h1 {
     background-color: gold;
     font-family: fantasy;
     text-align: center;
+    padding: 10px;
 }
 
 .recipe-card {
@@ -11,15 +12,22 @@ h1 {
     display: inline-block;
     text-align: left;
     color: gold;
+    list-style: none;
     font-size: 24px;
     font-family: fantasy;
-    text-decoration-color: rgb(218, 197, 78);
+    text-decoration-color: rgb(254, 254, 254);
 }
 
 .middle {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(253, 253, 253);
+    padding: 6px;
+    border-style: groove;
+    border-width: 6px;
+    border-color: gold;
+    color: rgb(0, 0, 0);
+    font-family: fantasy; 
+    font-weight: 600;
 }
 
 .contents {
@@ -29,5 +37,24 @@ h1 {
 .description {
     font-size: 20px;
     font-family: fantasy;
+    padding: 4px;
 }
 
+.recipe-item {
+    background-color: gold;
+    margin: 10px;
+    text-align: center;
+    padding: 12px 20px;
+    display: inline-block;
+    border-width: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+.steps li {
+    padding-top: 4px;
+}
+
+li {
+    padding-top: 6px;
+}
